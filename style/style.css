@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* position
+static
+absolute
+relative
+fixed
+sticky */
+
+body{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+header{
+    padding: 20px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 2;
+    /* opacity: 0.5; */
+
+}
+
+
+header h1{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -99999999px;
+    float: left;
+    margin-right: 300px;
+}
+header h1 a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+header nav{
+    margin-top: 18px;
+}
+
+header li{
+    float: left;
+    margin-right: 20px;
+
+}
+header li a{
+    padding: 5px 10px;
+    color: #000000;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+main{
+    padding-top: 90px;
+}
+.kvadrati{
+    width: 500px;
+    height: 500px;
+    background-color: #7e0091;
+    margin: 50px auto;
+    padding: 100px;
+    position: relative;
+}
+.kv2{
+    background-color: #006b10;
+    position: sticky;
+    top:90px;
+    z-index: 2;
+}
+.shvili{
+    width: 300px;
+    height: 300px;
+    background-color: #fbc500;
+    padding: 100px;
+    /* position: static; */
+}
+.baby{
+    width: 100px;
+    height: 100px;
+    /* background-color: #0099d0; */
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 1;
+    background-image: url(../img/cart.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.facebook{
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    background-color: #001881;
+    transform: rotate(-90deg);
+    position: fixed;
+    top:300px;
+    right: -120px;
+}
+.facebook a{
+    color: #ffffff;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
